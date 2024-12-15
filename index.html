@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="brain.ico">
+    <title>Color Word Stroop Task</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="instructions">
+        <p>In the following trials, you will see words presented in different colors. Your task is to indicate the <span style="text-decoration: underline;">COLOR</span> in which each word is printed while ignoring what the words actually say.</p>
+        <p>Indicate the color of the word by pressing either of the following keys:</p>
+        <ul>
+            <li><span>D</span> for <span style="color: red;">red</span> words</li>
+            <li><span>F</span> for <span style="color: green;">green</span> words</li>
+            <li><span>J</span> for <span style="color: blue;">blue</span> words</li>
+            <li><span>K</span> for <span style="color: black;">black</span> words</li>
+        </ul>
+        <p>Example: if you see the word <span style="color: green;">RED</span> printed in the color <span style="color: green;">GREEN</span>, press '<span>F</span>' for green words regardless of the meaning of the word.</p>
+        <p>Try to respond as quickly and accurately as you can, because you will be timed. If an incorrect response is made, a red <span style="color: red;">X</span> will be flashed onto the screen.</p>
+    </div>
+
+    <div id="game-screen" style="display:none;">
+        <div id="instructions">
+            <span class="ins">d = red</span> <span class="ins">f = green</span> <span class="ins">j = blue</span> <span class="ins">k = black</span>
+        </div>
+        <div id="display-area"></div>
+    </div>
+
+    <div class="participant-data">
+        <input type="text" id="participant-id" placeholder="Participant ID">
+        <input type="text" id="group-id" placeholder="Group ID">
+    </div>
+
+    <button class="start-btn" disabled>Start</button>
+    <script src="index.js"></script>
+</body>
+
+</html>
