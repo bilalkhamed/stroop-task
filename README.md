@@ -25,7 +25,7 @@ The Color Word Stroop Task is a psychological experiment designed to measure att
 
 ## Demo
 
-You can see a live preview of the experiment [here](https://ziadgold.github.io/color-word-stroop-task/).
+You can see a live preview of the experiment [here](https://bilalkhamed.github.io/stroop-task/).
 
 ## Credits
 

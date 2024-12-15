@@ -1,7 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   text-align: left;
-  padding: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
 
   line-height: 1.6;
   user-select: none; /* Disables text selection */
