@@ -1,4 +1,4 @@
-const TOTAL_TASK_TIME = 10;
+const TOTAL_TASK_TIME = 60;
 
 const startButton = document.querySelector(".start-btn");
 const gameScreen = document.getElementById("game-screen");
